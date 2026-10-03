@@ -1,0 +1,161 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css"> 
+    <title>My Resume</title>
+  </head>
+  
+  <body>
+    
+    <header>
+      <h1>Prabhleen Kaur</h1>
+    <p>Defense aspirant, future ethical hacker, wants to be independent</p>
+    </header>
+
+    <main>
+      <nav>
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#internships">Internships</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#extra-curriculum">Extra-Curriculam Activities</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
+        <li><a href="#admin-login" id="admin-btn">Admin login</a></li>
+      </ul>
+      </nav>
+      <button id="toggle-theme">Toggle Theme</button>
+
+      <section id="education" class="section-blocks">
+        <h2>Education</h2>
+        <div class="section-item">
+        <h3>BTech CSE Cybersecurity and Forensics</h3>
+        <p>CT University</p>
+        <p>2024-28</p>
+        </div>
+
+
+        <div class="section-item">
+        <h3>High School - PCM</h3>
+        <p>MLD</p>
+        <p>2024</p>
+        </div>
+
+      </section>
+
+    
+      <section id="internships" class="section-blocks">
+        <h2>Internships</h2>
+
+        <div class="section-item">
+        <h3>Cybersecurity</h3>
+        <p>Vidyashala</p>
+        <p>2025</p>
+        </div>
+
+        <div class="section-item">
+        <h3>Cybersecurity</h3>
+        <p>Future Finders</p>
+        <p>2026</p>
+        </div>
+
+        <div class="section-item">
+        <h3>Full stack web development</h3>
+        <p>YHills</p>
+        <p>2026</p>
+        </div>
+
+      
+      </section>
+
+    
+      <section id="projects" class="section-blocks">
+        <h2>Projects</h2>
+
+        <div class="section-item">
+        <h3>Tacticore-AI</h3>
+        <p>NCC</p>
+        <p>Idea and innovation 2026</p>
+        </div>
+
+        <div class="section-item">
+        <h3>Autorecon tool</h3>
+        <p>Future Finders</p>
+        <p>Internship project</p>
+        </div>
+
+        <div class="section-item">
+        <h3>Abusemap</h3>
+        <p>Hackathon - open innovation 3rd runner up</p>
+        <p>2026</p>
+        </div>
+
+      </section>
+    
+      <section id="extra-curriculum" class="section-blocks">
+        <h2>Extra-Curriculum activities</h2>
+
+        <div class="section-item">
+        <h3>NCC</h3>
+        <p>Corporal</p>
+        <p>3PB BN NCC Ludhiana</p>
+        </div>
+      
+      </section>
+
+      <section id="contact-me" class="section-blocks">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form">
+
+          <div>
+            <label>Name:</label>
+            <input type="text" id="input-name" required>
+          </div>
+        
+          <div>
+            <label>Email:</label>
+            <input type="email" id="input-email" required>
+          </div>
+        
+          <div>
+            <label>Message:</label>
+            <textarea id="input-msg" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section id="admin-login" class="section-blocks">
+        <h2>Admin Login</h2>
+        
+        <form id="admin-form">
+          <div>
+            <label>Username:</label>
+            <input type="text" id="input-username" required>
+          </div>
+        
+          <div>
+            <label>Password:</label>
+            <input type="password" id="input-password" required>
+          </div>
+
+          <button>Submit</button>
+
+        </form>
+      </section>
+
+      <section id="user-responses" class="section-blocks">
+        <h2>User Responses</h2>
+
+        <div id="user-messages">        <!--its's empty as we don't know how many responses we will get as it is supposed to be dynamic-->
+
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <center>Made with ♥ by Prabhleen Kaur | © 2026</center>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
