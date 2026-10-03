@@ -9,7 +9,7 @@ The website showcases my academic background, technical skills, internships, pro
 The portfolio is deployed using GitHub Pages.
 
 **Repository:**  
-https://github.com/PrabhSaran-07/Portfolio
+https://prabhsaran-07.github.io/Portfolio/
 
 ---
 
