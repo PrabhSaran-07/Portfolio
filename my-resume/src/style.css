@@ -1134,7 +1134,8 @@ main {
 }
 
 .admin-section {
-    border-top: 1px solid var(--border);
+  display: none;;
+  border-top: 1px solid var(--border);
 }
 
 .admin-form {

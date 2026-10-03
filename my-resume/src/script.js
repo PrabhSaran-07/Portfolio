@@ -191,6 +191,7 @@ if (adminForm) {
         throw new Error('HTTP error: ${response.status}');
       }
       const result = await response.json();
+      console.log("LOGIN RESPONSE:", result);
       if (result.success) {
         showStatus(adminStatus,"Login successful.","success");
         adminLoginSection.style.display = "none";
